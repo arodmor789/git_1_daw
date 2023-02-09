@@ -60,3 +60,34 @@ git add README.md
 git commit "Añadida rama v0.2 y 2.txt”
 git push
 ```
+
+### COMANDOS UTILIZADOS - Fusión de master y v0.2
+```
+git checkout main
+git merge v0.2
+```
+
+### COMANDOS UTILIZADOS - Merge con conflicto
+```
+nano 1.txt
+git add 1.txt
+git commit -am “Añadido hola en 1.txt”
+git checkout v0.2
+nano 1.txt
+git add 1.txt 
+git commit -am “Añadido adios en 1.txt”
+git checkout main
+git merge v0.2
+nano 1.txt
+git commit -am “Solución conflicto en 1.txt”
+git push
+git checkout v0.2
+git push
+```
+
+### COMANDOS UTILIZADOS - Crear tag, borrar rama y listar cambios
+```
+git tag v0.2
+git branch -d v0.2
+git log --graph
+```
