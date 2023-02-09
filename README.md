@@ -48,3 +48,15 @@ git push
 | Iván | ibarrom693 |
 | Andres | andresgilr |
 | Juanfri | juanfri18 |
+
+### COMANDOS UTILIZADOS - Creación de una nueva Rama
+```
+git branch v0.2
+git checkout v0.2
+touch 2.txt
+git add 2.txt
+nano README.md
+git add README.md
+git commit "Añadida rama v0.2 y 2.txt”
+git push
+```
