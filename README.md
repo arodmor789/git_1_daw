@@ -24,5 +24,27 @@ touch 1.txt
 git add 1.txt
 git tag v0.1
 git commit -am "añadido fichero 1.txt y tag"
+git push
 ```
 
+### COMANDOS UTILIZADOS - Creación de tabla
+```
+nano README.md
+git add README.md
+git commit "Añadida tabla al readme
+git push
+```
+
+### Tabla de cuentas GitHub
+
+| NOMBRE | CUENTA |
+| ------ | ------ |
+| Abraham | arodmor789 |
+| Antonio | anuncar621508 |
+| Alex | asecval523 |
+| Pablo | pamadob |
+| David R. | davrey |
+| Jose P. | josepeca |
+| Iván | ibarrom693 |
+| Andres | andresgilr |
+| Juanfri | juanfri18 |
