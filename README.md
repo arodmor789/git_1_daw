@@ -91,3 +91,15 @@ git tag v0.2
 git branch -d v0.2
 git log --graph
 ```
+
+### COMANDOS UTILIZADOS - Crear archivo equipo.md
+```
+touch equipo.md
+nano equipo.md
+git add equipo.md
+nano README.md
+git add README.md
+git commit -am "añadido equipo.md"
+git push
+```
+
